@@ -1,11 +1,11 @@
-# Chặn thư mục nhạc và model
-music_library/
-models/
-
-# Nếu muốn giữ lại 1-2 file mẫu thì thêm dòng này (có dấu !)
-!music_library/sample.wav
-
-# Chặn môi trường ảo và rác PyCharm
-.venv/
-.idea/
-__pycache__/
+## Chặn thư mục nhạc và model
+#music_library/
+#models/
+#
+## Nếu muốn giữ lại 1-2 file mẫu thì thêm dòng này (có dấu !)
+#!music_library/sample.wav
+#
+## Chặn môi trường ảo và rác PyCharm
+#.venv/
+#.idea/
+#__pycache__/
