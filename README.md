@@ -54,6 +54,6 @@ Nguyễn Thanh Đa
 🎓 Major: Information Systems @ Can Tho University
 
 🎯 Interest: Computer Vision, Deep Learning, AI in Medicine
-
+```
 📫 Contact: [nguyendapro2018@gmail.com] |
             [https://www.linkedin.com/in/dathanh305/]
