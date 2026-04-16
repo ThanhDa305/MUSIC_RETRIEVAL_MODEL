@@ -34,9 +34,26 @@ $$\text{similarity} = \cos(\theta) = \frac{\mathbf{q} \cdot \mathbf{v}}{\|\mathb
 ## 📂 Project Structure
 ```text
 MUSIC_RETRIEVAL/
-├── 🗂 index/              # Lưu trữ của hệ thống (Vector data)
-├── 🧠 models/             # Nơi lưu trữ Weight khổng lồ
-├── 🎵 music_library/      # Thư viện âm thanh (Dataset)
-├── 📝 create_index.py     # Script trích xuất đặc trưng
-├── 🔍 search.py           # Engine tìm kiếm cốt lõi
-└── ⚡ requirements.txt     # "Bản đồ" thư viện
+├──  index/              # Lưu trữ của hệ thống (Vector data)
+├──  models/             # Nơi lưu trữ Weight khổng lồ
+├──  music_library/      # Thư viện âm thanh (Dataset)
+├──  create_index.py     # Script trích xuất đặc trưng
+├──  search.py           # Engine tìm kiếm cốt lõi
+└──  requirements.txt     # "Bản đồ" thư viện
+
+git clone [https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git](https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git)
+cd MUSIC_RETRIEVAL
+python -m venv .venv
+# Activate nó lên (Windows)
+.\.venv\Scripts\activate
+# Cài đặt thư viện
+pip install -r requirements.txt
+
+👨‍💻 Author
+Nguyễn Thanh Đa
+
+🎓 Major: Information Systems @ Can Tho University
+
+🎯 Interest: Computer Vision, Deep Learning, AI in Medicine
+
+📫 Contact: [nguyendapro2018@gmail.com] | [https://www.google.com/search?q=LinkedIn.com/in/dathanh305]
