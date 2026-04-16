@@ -55,4 +55,5 @@ Nguyễn Thanh Đa
 
 🎯 Interest: Computer Vision, Deep Learning, AI in Medicine
 
-📫 Contact: [nguyendapro2018@gmail.com] | [https://www.google.com/search?q=LinkedIn.com/in/dathanh305]
+📫 Contact: [nguyendapro2018@gmail.com] |
+            [https://www.linkedin.com/in/dathanh305/]
