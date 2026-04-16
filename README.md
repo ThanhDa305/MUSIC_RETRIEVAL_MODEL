@@ -25,7 +25,7 @@ $$\text{similarity} = \cos(\theta) = \frac{\mathbf{q} \cdot \mathbf{v}}{\|\mathb
 
 ## 🛠 Tech Stack
 - **Audio Processing:** `Librosa`, `Torchaudio`
-- **Model:** Pre-trained Convolutional Neural Networks (CNNs) / Transformers
+- **Model:** Pre-trained Wav2vec2 
 - **Database:** `NumPy` indexing & `JSON` mapping
 - **Environment:** PyCharm, Python 3.13
 
