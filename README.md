@@ -47,7 +47,7 @@ python -m venv .venv
 
 # Cài đặt thư viện
 pip install -r requirements.txt
-
+```
 👨‍💻 Author
 Nguyễn Thanh Đa
 
