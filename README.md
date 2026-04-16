@@ -1,65 +1,12 @@
-🎵 Music Retrieval System (Vector Search)
-Dự án tìm kiếm âm nhạc dựa trên đặc trưng (embeddings) sử dụng Deep Learning. Hệ thống cho phép tìm kiếm các bài hát tương đồng trong cơ sở dữ liệu dựa trên một đoạn nhạc truy vấn.
-
-🚀 Tính năng chính
-Trích xuất đặc trưng: Sử dụng model Pre-trained (như PANNs hoặc Wav2Vec) để chuyển đổi âm thanh sang vector.
-
-Tìm kiếm Vector: Sử dụng tìm kiếm tương đồng (Cosine Similarity/Euclidean Distance) để tìm kết quả nhanh chóng.
-
-Quản lý Index: Lưu trữ và tải chỉ mục vector hiệu quả.
-
-🛠 Công nghệ sử dụng
-Ngôn ngữ: Python 3.13+
-
-Deep Learning: PyTorch, Torchaudio
-
-Xử lý dữ liệu: NumPy, Librosa
-
-Quản lý mã nguồn: Git LFS
-
-📦 Cài đặt
-Clone project:
-
-Bash
-
-git clone https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git
-cd MUSIC_RETRIEVAL
-Cài đặt môi trường ảo và thư viện:
-
-Bash
-
+<p align="center">🎵 MUSIC RETRIEVAL SYSTEM 🎵</p><p align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /><img src="https://img.shields.io/badge/Vector%20Search-FF6F00?style=for-the-badge&logo=databricks&logoColor=white" /><img src="https://img.shields.io/badge/Deep%20Learning-00599C?style=for-the-badge&logo=google-cloud&logoColor=white" /></p><p align="center"><i>"Tìm kiếm giai điệu trong biển dữ liệu âm thanh"</i></p>🌟 OverviewDự án này là hệ thống Content-based Music Retrieval, cho phép người dùng tìm kiếm bài hát bằng cách đưa vào một đoạn nhạc mẫu. Hệ thống sẽ trích xuất "dấu vân tay âm thanh" (Embeddings) và so khớp trong không gian vector.🧠 Core LogicHệ thống sử dụng khoảng cách Cosine để tính toán độ tương đồng giữa vector truy vấn ($q$) và các vector trong cơ sở dữ liệu ($v$):$$\text{similarity} = \cos(\theta) = \frac{\mathbf{q} \cdot \mathbf{v}}{\|\mathbf{q}\| \|\mathbf{v}\|}$$🛠 Tech StackAudio Processing: Librosa, TorchaudioModel: Pre-trained Convolutional Neural Networks (CNNs) / TransformersDatabase: NumPy indexing & JSON mappingEnvironment: PyCharm, Python 3.13📂 Project StructureBashMUSIC_RETRIEVAL/
+├── 🗂 index/              # Lưu trữ "linh hồn" của hệ thống (Vector data)
+├── 🧠 models/             # Nơi trú ngụ của các Weight khổng lồ
+├── 🎵 music_library/      # Thư viện âm thanh (Dataset)
+├── 📝 create_index.py     # Script trích xuất đặc trưng
+├── 🔍 search.py           # Engine tìm kiếm cốt lõi
+└── ⚡ requirements.txt     # "Bản đồ" thư viện
+⚙️ Quick Start1. Triệu hồi môi trườngBashgit clone https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git
 python -m venv .venv
-source .venv/bin/activate  # Trên Windows: .venv\Scripts\activate
+# Activate nó lên và...
 pip install -r requirements.txt
-📂 Cấu trúc thư mục
-Plaintext
-
-MUSIC_RETRIEVAL/
-├── index/              # Chứa file embedding (.npy) và mapping (.json)
-├── models/             # Thư mục chứa file trọng số model (.pth)
-├── music_library/      # Thư mục chứa dataset âm thanh (.wav)
-├── create_index.py     # Script tạo index từ bộ thư viện nhạc
-├── search.py           # Script thực hiện truy vấn tìm kiếm
-└── temp_query.wav      # File nhạc tạm dùng để test
-⚠️ Lưu ý quan trọng (Dataset & Weights)
-Do giới hạn dung lượng của GitHub, các file trọng số và bộ dữ liệu nhạc đầy đủ đã được lược bỏ. Để chạy được dự án, bạn vui lòng thực hiện:
-
-Tải file trọng số model tại: [Link]
-
-Tải bộ dữ liệu nhạc (8GB) tại: [Link]
-
-Giải nén và đặt vào đúng thư mục models/ và music_library/.
-
-🖥 Hướng dẫn sử dụng
-Tạo Index: (Chạy lần đầu để trích xuất vector cho bộ nhạc)
-
-Bash
-
-python create_index.py
-Tìm kiếm nhạc:
-
-Bash
-
-python search.py
-👤 Tác giả
-Nguyễn Thanh Đa - Sinh viên ngành Hệ thống thông tin, Đại học Cần Thơ.
+2. Dữ liệu nặng (Models & Music)[!IMPORTANT]Do chính sách "giảm cân" của dự án, các file nặng đã được cất giữ riêng.📥 Download Model & Dataset: [👉 Nhấn vào đây để tải (Google Drive)]Sau đó giải nén vào đúng thư mục ./models và ./music_library.🎬 Demo(Ông chèn một cái ảnh GIF quay cảnh terminal đang chạy hoặc kết quả tìm kiếm vào đây cho nó "pro")👨‍💻 AuthorNguyễn Thanh Đa🎓 Major: Information Systems @ Can Tho University🎯 Interest: Computer Vision, Deep Learning, AI in Medicine📫 Contact: [Email của ông] | [LinkedIn của ông]
