@@ -41,9 +41,11 @@ MUSIC_RETRIEVAL/
 ├──  search.py           # Engine tìm kiếm cốt lõi
 └──  requirements.txt     # Cài đặt thư viện
 ```
-git clone [https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git](https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git)
-cd MUSIC_RETRIEVAL
-python -m venv .venv
+GIT: git clone [https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git](https://github.com/ThanhDa305/MUSIC_RETRIEVAL_MODEL.git)
+
+$ cd MUSIC_RETRIEVAL
+
+$ python -m venv .venv
 
 # Cài đặt thư viện
 pip install -r requirements.txt
