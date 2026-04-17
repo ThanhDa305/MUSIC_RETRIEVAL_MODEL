@@ -47,6 +47,10 @@ python -m venv .venv
 
 # Cài đặt thư viện
 pip install -r requirements.txt
+# Cài đặt thư mục dataset và trọng số mô hình
+Download từ: Google Drive [https://drive.google.com/drive/folders/16tu_gWIx712IQTG8M7KGSigmhsWj3Qf4?usp=drive_link]
+Bao gồm file: music###.wav và 1 file trọng số mô hình.
+Dataset cần được giải nén vào music_library/ và trọng số mô hình cần giải nén vào model/
 ```
 👨‍💻 Author
 Nguyễn Thanh Đa
