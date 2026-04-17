@@ -48,7 +48,7 @@ $ cd MUSIC_RETRIEVAL
 $ python -m venv .venv
 
 # Cài đặt thư viện
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 # Cài đặt thư mục dataset và trọng số mô hình
 Download từ: Google Drive [https://drive.google.com/drive/folders/16tu_gWIx712IQTG8M7KGSigmhsWj3Qf4?usp=drive_link]
 
